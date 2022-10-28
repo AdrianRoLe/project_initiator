@@ -23,9 +23,9 @@ All configuration files MUST be placed inside a directory called "configs" in th
 ## Example:
 $ cat configs/example.conf<br />
 <br />
-docker_dir="path/to/you/docker"<br />
-backend_dir="path/to/you/backend"<br />
-frontend_dir="path/to/you/frontend"<br />
+docker_dir="path/to/your/docker"<br />
+backend_dir="path/to/your/backend"<br />
+frontend_dir="path/to/your/frontend"<br />
 backend_commands=declare -a array("bash exec -i")<br />
 frontend_commands=declare -a array("npm start", "npx tailwindcss -i ./tailwind_dir/src/input.css -o ./tailwind_dir/dist/output.css --watch")
 
