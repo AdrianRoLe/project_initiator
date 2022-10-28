@@ -21,7 +21,7 @@ All configuration files MUST be placed inside a directory called "configs" in th
  -h -> Show this message only (other options will not run)<br />
 
 ## Example:
-$ cat configs/example.conf<br />
+$ vim configs/example.conf<br />
 <br />
 docker_dir="path/to/your/docker"<br />
 backend_dir="path/to/your/backend"<br />
