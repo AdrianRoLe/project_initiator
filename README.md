@@ -8,6 +8,11 @@ You just need to create the <project_name>.conf file with the desired variables.
 ## How to run:
 $ ./project_initiator.sh <conf_filename>
 
+## Structure requirements:
+All configuration files MUST be placed inside a directory called "configs" in the same one as this script.<br />
+(If you want yo change this, replace the "configs_dir" variable inside this script with your desired directory)
+
+
 ### Available options (order do not matter):
 -b: Only Run ...
 
