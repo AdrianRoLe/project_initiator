@@ -14,7 +14,11 @@ All configuration files MUST be placed inside a directory called "configs" in th
 
 
 ### Available options (order do not matter):
--b: Only Run ...
+ -b -> Only run backend commands<br />
+ -c -> Only open VSCode<br />
+ -d -> Only wake up docker<br />
+ -f -> Only run frontend commands<br />
+ -h -> Show this message only (other options will not run)<br />
 
 ## Example:
 $ cat configs/example.conf<br />
