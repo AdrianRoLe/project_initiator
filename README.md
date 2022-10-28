@@ -26,8 +26,8 @@ $ cat configs/example.conf<br />
 docker_dir="path/to/your/docker"<br />
 backend_dir="path/to/your/backend"<br />
 frontend_dir="path/to/your/frontend"<br />
-backend_commands=declare -a array("bash exec -i")<br />
-frontend_commands=declare -a array("npm start", "npx tailwindcss -i ./tailwind_dir/src/input.css -o ./tailwind_dir/dist/output.css --watch")
+declare -a backend_commands='("xdg-open https://www.google.com && exec bash -i" "ng serve")'<br />
+declare -a frontend_commands='("npm run tailwind" "npm start")'<br />
 
 ##### Initiate whole script
 $ ./project_initiator.sh example
